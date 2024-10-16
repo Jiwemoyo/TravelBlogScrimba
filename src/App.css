@@ -15,20 +15,57 @@ header{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: red;
+  background-color:#F55A5A;
   color: white;
+  padding: 16px;
+  gap: 7px;
 }
 
+h1{
 
+  font-weight: normal; /* restablece el peso de la fuente */
+  font-size: 14px;
+  color: white;
+}
 .card{
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 50px;
-  padding: 100px;
+  gap: 19px;
+  margin: 40px;
 }
 
 
-.img-card{
-  width: 50%;
+.deestiny img{
+  width: 7px;
+}
+
+.deestiny{
+  font-size: 10px;
+  margin: 0px;
+}
+
+span img{
+  margin-right: 4px;
+}
+
+.deestiny a{
+  margin-left: 7px;
+  color:#918E9B;
+  font-weight: normal;
+}
+
+h2{
+  font-size: 25px;
+  color: #2B283A;
+  margin-top: 7px;
+}
+
+.date{
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 17px;
+}
+
+.description{
+  font-size: 10px;
 }
